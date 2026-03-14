@@ -1,0 +1,10 @@
+.test{
+  background-color: green;
+  color: #fff;
+}
+.primary{
+  font-size: 15px;
+  font-style: italic;
+  text-decoration: dotted;
+  text-align: center;
+}
