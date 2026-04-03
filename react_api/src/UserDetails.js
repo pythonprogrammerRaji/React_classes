@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./UserDetails.css";
-import './App.css'
+import './App.css';
 
 const UserDetails = ()=> {
-
     const [user, setUser] = useState([]);
 
     const UserDetails = "https://fakestoreapi.com/products"
@@ -15,7 +14,6 @@ const UserDetails = ()=> {
 
     }
     useEffect(()=> {
-        
         console.log(UserHandler())
        
     },[])
@@ -44,4 +42,4 @@ const UserDetails = ()=> {
     )
 }
 
-export default UserDetails
+export default UserDetails;
